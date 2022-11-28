@@ -1,0 +1,164 @@
+h1,h2,h3 {
+  text-align: center; 
+}
+
+html {
+    overflow: hidden;
+    height: 100%; 
+}
+
+body {
+    min-height: 100%;
+    background-color: #a39696;
+}
+
+.container {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-gap: 10px;
+    
+}
+
+.box_container {
+    place-items: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: auto;
+    margin: auto;
+    
+}
+
+.container > div {
+    border-color: black;
+    border-width: 3px;
+}
+
+#header {
+    display: grid;
+    grid-template-rows: 25px;
+}
+
+#backButton {
+    background-color: rgb(240, 208, 240);
+    border-radius: 13px;
+    font-size: 25px;
+    width: 125px;
+    height: 50px;
+}
+
+#backButton:hover {
+    cursor:pointer;
+}
+
+
+#inside_box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #3B8BEB;
+    border-radius: 25px;
+}
+
+#inside_box2 {
+    width: 200px;
+    height: 200px;
+    background-color: #FAED26;
+    border-radius: 25px;
+}
+
+#inside_box3 {
+    width: 200px;
+    height: 200px;
+    background-color: #ef5858;
+    border-radius: 25px;
+}
+
+#inside_box4 {
+    width: 200px;
+    height: 200px;
+    background-color: #46e150;
+    border-radius: 25px;
+}
+
+#inside_box5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(246, 120, 246);
+    border-radius: 25px;
+}
+
+#inside_box1:hover {
+    cursor:pointer;
+}
+
+#inside_box2:hover {
+    cursor:pointer;
+}
+
+#inside_box3:hover {
+    cursor:pointer;
+}
+
+#inside_box4:hover {
+    cursor:pointer;
+}
+
+#inside_box5:hover {
+    cursor:pointer;
+}
+
+
+
+#grid-button {
+    margin: auto;
+}
+
+#sequenceButton {
+    width: max-content;
+    height: 100px;
+    border-radius: 12px;
+    background-color: rgb(240, 208, 240);
+    font-size: 35px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#sequenceButton:hover {
+    cursor: pointer;
+}
+
+#failMessage {
+    color: #000000;
+}
+
+#seqLengthText {
+    font-size: 50px;
+    font: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#seqLength {
+    height: 50px;
+    font-size: 50px;
+    margin: auto;
+}
+
+#startSequenceText {
+    height: 45px;
+    font-size: 45px;
+    text-align: center;
+}
+
+#highscoreText {
+    margin-top: 5px;
+    font-size: 50px;
+    font: bold;
+    text-align: center;
+}
+
+#highscore {
+    font-size: 50px;
+    text-align: center;
+}

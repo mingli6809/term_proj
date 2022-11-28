@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the correct color</title>
+    <link rel="stylesheet" type="text/css" href="/css/GuessColor.css">
+
+</head>
+
+<body>
+    <div class="exitsection">
+        <button type="button" id="exit">exit</button>
+        <h4  id="highscore"></h4>
+    </div>
+    <div class="container">
+        <div class="gametitle">
+            <h2 id="gamename">Guess the correct color</h2>
+        </div>
+        <div id="progressbar" class="progressbar">
+            <div id="time"></div>
+        </div>
+        <div id="display">
+            <div id="colortext"></div>
+        </div>
+        <div class="score">
+            <div id="scoreval">0</div>
+        </div>
+        <div class="buttonrow">
+            <button type="button" onclick="isCorrect()" id="right">correct color</button>
+            <button type="button" onclick="isWrong()" id="wrong">incorrect color</button>
+        </div>
+        <div class="startbtn">
+            <button type="button" onclick="startGame()" id="start">start</button>
+        </div>
+    </div>
+    <script src="/js/GuessColor.js"></script>
+</body>
+
+
+</html>

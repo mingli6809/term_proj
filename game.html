@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Game</title>
+        <link rel="stylesheet" href="/css/gameStyle.css">
+    </head>
+    <body>
+        <div id="header">
+            <div>
+                <button id="backButton" type="button">Back</button>
+            </div>
+            <div>
+                <h1>Sequence Matcher:</h1>
+            <h2>
+            Start a sequence and wait until it finishes!
+            </br>
+            Once the sequence has ended, 
+            match the sequence by pressing the 
+            buttons in the correct order.
+            </br>
+            <p id="failMessage">If you fail, the highest sequence you made it to will be displayed in the bottom!</p>
+            </div>
+            
+        </div>
+        
+
+        </h2>
+        </br>
+        <div id="startSequenceText"></div>
+        </br>
+        <div class="container">
+            <div class="box_container">
+                <div id="box1">
+                    <button id="inside_box1"></button>
+                </div>
+                <div id="box2">
+                    <button id="inside_box2"></button>
+                </div>
+                <div id="box3">
+                    <button id="inside_box3"></button>
+                </div>
+                <div id="box4">
+                    <button id="inside_box4"></button>
+                </div>
+                <div id="box5">
+                    <button id="inside_box5"></button>
+                </div>
+            </div>
+            <div id="grid-button"><button id="sequenceButton" onclick="game()">Start the Sequence</button></div>
+            <div id="seqLengthText">Current Sequence Length: </div>
+            <div id="seqLength"></div>
+        </div>
+        <div id="highscoreText">Highest Sequence Achieved:</div>
+        <div id="highscore"></div>
+    </body>
+    <script src="/js/game.js">
+    </script>
+</html>
